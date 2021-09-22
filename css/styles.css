@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Merryweather', serif;
+}
+
+/* NavBar */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2rem;
+}
+
+.nav-item{
+    text-align: right;
+}
+
+/* Title */
+#title{
+    background-color:  rgba(237,72,102,255);
+}
+
+#title h1{
+    font-size: 3.6rem;
+    line-height: 5rem;
+    text-align: left;
+}
+
+
+.bg-custom{
+    background-color: rgba(237,72,102,255);
+}
+
+.iphone-img{
+    text-align: center;
+    overflow: hidden;
+}
+
+.iphone-img img{
+    height: 90vh;
+    object-fit: cover;
+    display: block;
+}
+
+@media screen and (max-width:992px) {
+    .iphone-img img{
+        margin: 5rem auto;
+    }
+}
+
+@media  screen and (min-width:992px) {
+    .iphone-img img{
+        transform: rotate(25deg) translateY(2.9vh);
+        margin: auto;
+    }
+    .iphone-img{
+        height: 70vh;
+    }
+}
+
+@media print{
+    .iphone-img img{
+        height: 50vh;
+        margin: 5rem auto;
+    }
+}
+
+/* Features */
+#features{
+    text-align: center;
+}
+.icon-desc{
+    color: #f08474;
+    font-size: 4rem;
+}
+
+#features h2{
+font-size: 2rem;
+}
+/* Testimonials & Press*/
+#testimonials , #press{
+    background-color: #f08474;
+    text-align: center;
+}
+
+.carousel{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.testimonial-text{
+    color:white;
+    font-size: 3rem;
+}
+
+.testimonial-image{
+    width: 5rem;
+    border-radius: 100%;
+}
+
+.testimonial-location{
+    color:white;
+}
+
+.press-logo{
+    width:15vw;
+    margin-left:  2.5vw;
+    margin-right: 2.5vw;
+}
+
+/* Pricing */
+#pricing{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+/* Call to action */
+
+#cta{
+    text-align: center;
+    background-color:  rgba(237,72,102,255);
+    padding: 5rem 0;
+}
+
+#cta h3{
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
